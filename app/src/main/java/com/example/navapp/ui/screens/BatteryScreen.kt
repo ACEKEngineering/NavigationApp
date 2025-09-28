@@ -29,7 +29,12 @@ fun BatteryScreen() {
         Text(
             text = "Battery status and information",
             style = MaterialTheme.typography.bodyLarge,
-            modifier = Modifier.padding(top = 8.dp)
+            modifier = Modifier.padding(top = 8.dp, bottom = 32.dp)
+        )
+        Text(
+            text = "Battery Percentage: 0%",
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Medium
         )
     }
 }
